@@ -3,7 +3,7 @@ terraform {
     hostname = "app.terraform.io"
     organization = "burkey"
     workspaces {
-      name = "aws-tfe-vpc"
+      name = "aws-tfe-prereqs"
     }
   }
 }
