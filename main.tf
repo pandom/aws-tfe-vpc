@@ -14,9 +14,9 @@ module "vpc" {
   one_nat_gateway_per_az = false
   enable_vpn_gateway = true
 
-  tags = {
-    Terraform = "true"
-    Environment = "tfe-v5"
-    Name = "Burkey"
-  }
+  // tags = {
+  //   Terraform = "true"
+  //   Environment = "tfe-v5"
+  //   Name = "Burkey"
+  // }
 }
