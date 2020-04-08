@@ -2,7 +2,7 @@ module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
   version = "1.72.0"
 
-  name = "burkey-vpc-DXC"
+  name = "burkey-vpc"
   cidr = "10.0.0.0/16"
 
   azs             = ["ap-southeast-2c", "ap-southeast-2b", "ap-southeast-2a"]
@@ -12,7 +12,7 @@ module "vpc" {
   enable_nat_gateway = true
   single_nat_gateway = false
   one_nat_gateway_per_az = false
-  enable_vpn_gateway = true
+  enable_vpn_gateway = true d
 
   // tags = {
   //   Terraform = "true"
