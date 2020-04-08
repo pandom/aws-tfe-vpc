@@ -12,7 +12,7 @@ module "vpc" {
   enable_nat_gateway = true
   single_nat_gateway = false
   one_nat_gateway_per_az = false
-  enable_vpn_gateway = true d
+  enable_vpn_gateway = true
 
   // tags = {
   //   Terraform = "true"
