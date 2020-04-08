@@ -2,7 +2,7 @@ module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
   version = "1.72.0"
 
-  name = "burkey-vpc"
+  name = "burkey-vpc-DXC"
   cidr = "10.0.0.0/16"
 
   azs             = ["ap-southeast-2c", "ap-southeast-2b", "ap-southeast-2a"]
